@@ -2,7 +2,7 @@
 
 Este projeto é um clone da versão web do Duolingo, desenvolvido como parte do programa de estágio da **Premiersoft Academy**. O objetivo principal foi recriar a interface do site utilizando apenas HTML e CSS, simulando a experiência de aprendizado de idiomas oferecida pela plataforma Duolingo.
 
-![Duolingo Clone](https://via.placeholder.com/600x300?text=Duolingo+Clone)  <!-- Substitua a URL pela sua imagem -->
+![Duolingo Clone](./assets/readme.png)
 
 ## Tecnologias Utilizadas
 
