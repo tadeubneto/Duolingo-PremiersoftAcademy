@@ -1,0 +1,287 @@
+:root {
+    --primary-color: #235390;
+    --text-color: #FFFFFF;
+    --paragraph-color: #777777;
+    --title-color: #3C3C3C;
+    --link-color: #1CB0F6;
+    --button-green: #58CC02;
+    --link-footer-color: #ffffff88;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 712px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./svg/4986531ca822d48e57b4a18f40ff5172.svg.svg);
+    
+}
+
+button{
+    color: var(--text-color);
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    font-family: 'Inter';
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+    
+}
+
+a{
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    opacity: 0.8;
+    
+}
+
+hr{
+    height: 2px;
+    width: 1065px;
+    margin: 0 auto;
+    border-top: 0;
+    border-bottom: 2px solid #E5E5E5;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 0;
+    background-color: var(--primary-color);
+}
+
+.btn-header i {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    
+    
+}
+
+.text-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 714px;
+    height: 242px;
+    color: var(--text-color);
+    
+}
+
+.text-banner h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A4A82;
+    height: 74px;
+    align-items: center;
+    padding: 0 218px;
+
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+.btn-1{
+    height: 50px;
+    width: 320px;
+    border-radius: 16px;
+    background-color: var(--button-green);
+    box-shadow: 0px 4px 0px 0px #58A700;
+    margin: 0 auto 12px auto;
+        
+}
+
+.btn-2{
+    height: 50px;
+    width: 320px;
+    border-radius: 16px;
+    border: 2px solid #042C60;
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 0px 0px #042C60;
+    margin: auto;
+}
+
+section{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+.text-about{
+    margin-left: 50px;
+}
+
+.text-about2{
+    margin-right: 50px;
+}
+
+.text-about2 img{
+    margin-top: 20px;
+}
+h2{
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+p{
+    color: var(--paragraph-color);
+}
+
+.about {
+    display: flex;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.span-about{
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.why h2{
+    margin: auto;
+
+}
+
+.img-text{
+    margin: 0 50px;
+}
+
+.text-why {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.text-why i {
+    margin-top: -10px;
+}
+
+h3, p{
+    margin-bottom: 12px;
+}
+
+.text-1, .text-2, .text-a, .text-b{
+    display: flex;
+    
+}
+
+.span-link{
+    color: var(--link-color);
+}
+
+footer{
+    height: 900px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./svg/4986531ca822d48e57b4a18f40ff5172.svg.svg);
+}
+
+.footer-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.footer-title h2 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.footer-title .btn-1{
+    max-width: 150px;
+    margin: auto;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 1065px;
+    gap: 20px;
+}
+
+.footer-links p, .footer-lang p {
+    color: var(--text-color);
+    margin-bottom: 12px;
+}
+
+.footer-links a, .footer-lang a {
+    color: var(--link-footer-color);
+    margin-bottom: 12px;
+    text-decoration: none;
+
+}
+
+.link, .link1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-lang{
+    width: 1065px;
+    
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
